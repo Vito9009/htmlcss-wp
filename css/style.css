@@ -91,8 +91,12 @@ main span{
     display: table;
 }
 
-.column{
+.text-left, .central-text{
   float: left;
+}
+
+.text-right{
+    float: right;
 }
 
 .column-photo .column-photo-left, .column-photo .column-photo-central, .column-photo .column-photo-right{
