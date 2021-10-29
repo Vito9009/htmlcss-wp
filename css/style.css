@@ -7,10 +7,13 @@
     font-family: 'Montserrat';
 }
 
-
 .container{
     width: 1000px;
     margin: 1% auto;
+}
+
+header{
+    margin-bottom: 30px;
 }
 
 #logo{
@@ -57,5 +60,72 @@ nav li a{
     left: 30px;
     padding-right: 50%;
     color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-weight: 900;        
+}
+
+main span{
+    color: rgb(135, 135, 135);
+    font-size: 14px;
+}
+
+.main-text{
+    width: 100%;
+    margin: 1% 0;
+}
+
+.middle-header{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.main-text::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column{
+  float: left;
+}
+
+.column-photo .column-photo-left, .column-photo .column-photo-central, .column-photo .column-photo-right{
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.column-photo-left{
+    background-image: url(../img/img-1.jpg);
+
+}
+
+.column-photo-central{
+    background-image: url(../img/banner-2.jpg);
+}
+
+.column-photo-right{
+    background-image: url(../img/img-3.jpg);
+}
+
+.text-left, .text-right{
+  width: 20%;
+}
+
+.central-text{
+    width: 60%;
+    padding: 0 15px;
+}
+
+.column-photo h5{
+    margin: 10px 0;
+}
+
+.column-photo p{
+    font-size: 14px;
 }
 
