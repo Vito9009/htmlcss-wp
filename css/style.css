@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -28,7 +27,7 @@ header{
 
 .nav-menu{
     width: 100%;
-    margin: 2% 0;
+    margin: 30px 0;
 }
 
 nav li{
@@ -43,10 +42,14 @@ nav li a{
     color: rgb(135, 135, 135);
 }
 
+nav li a:hover{
+    color: rgb(134, 146, 204);
+}
+
 .banner{
     height: 400px;
     width: 100%;
-    background-image: url(../img/banner.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/banner.jpg);
     background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -58,8 +61,12 @@ nav li a{
     position: absolute;
     bottom: 50px;
     left: 30px;
-    padding-right: 50%;
+    padding-right: 45%;
     color: rgb(255, 255, 255);
+}
+
+.text-banner p{
+    font-size: 14px;
 }
 
 main span{
@@ -96,16 +103,16 @@ main span{
 }
 
 .column-photo-left{
-    background-image: url(../img/img-1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/img-1.jpg);
 
 }
 
 .column-photo-central{
-    background-image: url(../img/banner-2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/banner-2.jpg);
 }
 
 .column-photo-right{
-    background-image: url(../img/img-3.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/img-3.jpg);
 }
 
 .text-left, .text-right{
