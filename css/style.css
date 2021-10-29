@@ -43,7 +43,8 @@ nav li a{
 }
 
 nav li a:hover{
-    color: rgb(134, 146, 204);
+    color: rgb(12, 58, 82);
+    font-weight: 600;
 }
 
 .banner{
