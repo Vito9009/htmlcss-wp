@@ -9,7 +9,7 @@
 
 .container{
     width: 1000px;
-    margin: 1% auto;
+    margin: auto;
 }
 
 header{
@@ -60,10 +60,6 @@ nav li a{
     left: 30px;
     padding-right: 50%;
     color: rgb(255, 255, 255);
-}
-
-h1 {
-    font-weight: 900;        
 }
 
 main span{
@@ -127,5 +123,15 @@ main span{
 
 .column-photo p{
     font-size: 14px;
+    color: rgb(135, 135, 135);
+}
+footer{
+    width: 100%;
+    margin: 30px 0 10px 0;
+    text-align: center;
 }
 
+footer span{
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+}
