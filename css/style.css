@@ -78,14 +78,14 @@ main span{
     margin-bottom: 30px;
 }
 
-.main-text::after{
+.clearfix::after{
     content: "";
     clear: both;
     display: table;
 }
 
 .text-left, .central-text{
-  float: left;
+    float: left;
 }
 
 .text-right{
