@@ -7,7 +7,7 @@
 }
 
 .container{
-    width: 1000px;
+    width: 80%;
     margin: auto;
 }
 
@@ -51,6 +51,7 @@ nav li a:hover{
     height: 400px;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/banner.jpg);
+    background-color: rgb(254, 235, 228);
     background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
