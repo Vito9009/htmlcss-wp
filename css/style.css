@@ -51,13 +51,14 @@ nav li a:hover{
     background-repeat: no-repeat;
     border-radius: 10px;
     position: relative;
+    overflow: hidden;
 }
 
 .text-banner{
     position: absolute;
     bottom: 50px;
     left: 30px;
-    padding-right: 45%;
+    width: 55%;
     color: rgb(255, 255, 255);
 }
 
@@ -102,7 +103,6 @@ main span{
 
 .column-photo-left{
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/img-1.jpg);
-
 }
 
 .column-photo-central{
